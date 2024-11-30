@@ -1,11 +1,10 @@
-/* Estilo básico para o site */
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+.body {
     font-family: 'Arial', sans-serif;
     height: 100vh;
     display: flex;
@@ -14,11 +13,10 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Container principal para o convite */
 .container {
     width: 100%;
     height: 100%;
-    background-image: url('fundo.jpg'); /* Substitua com o caminho da sua imagem */
+    background-image: url('fundo.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -29,9 +27,8 @@ body {
     color: #333;
 }
 
-/* Estilo para a carta */
 .invitation {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo levemente transparente para legibilidade */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 30px;
     border-radius: 10px;
     width: 80%;
@@ -40,20 +37,17 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Título do convite */
 .invitation h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-/* Parágrafos do convite */
 .invitation p {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
-/* Link de confirmação */
 .link-confirmacao {
     font-size: 1.2rem;
     color: #fff;
